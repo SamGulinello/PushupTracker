@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2231F87B27B3D54500146EFD /* IncrementButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231F87A27B3D54500146EFD /* IncrementButton.swift */; };
+		2231F87D27B5E70900146EFD /* FileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231F87C27B5E70900146EFD /* FileController.swift */; };
+		2231F88027BEF96800146EFD /* SavedData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2231F87E27BEF96800146EFD /* SavedData.xcdatamodeld */; };
+		2242E52F27AC8C520038B1CC /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242E52E27AC8C520038B1CC /* Notification.swift */; };
+		2242E53127AC8C870038B1CC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242E53027AC8C870038B1CC /* NotificationController.swift */; };
 		225938B1279CB8C80003F846 /* Pushup_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225938B0279CB8C80003F846 /* Pushup_TrackerApp.swift */; };
 		225938B3279CB8C80003F846 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225938B2279CB8C80003F846 /* ContentView.swift */; };
 		225938B5279CB8CA0003F846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225938B4279CB8CA0003F846 /* Assets.xcassets */; };
@@ -14,6 +19,10 @@
 		225938C2279CB8CA0003F846 /* Pushup_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225938C1279CB8CA0003F846 /* Pushup_TrackerTests.swift */; };
 		225938CC279CB8CA0003F846 /* Pushup_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225938CB279CB8CA0003F846 /* Pushup_TrackerUITests.swift */; };
 		225938CE279CB8CA0003F846 /* Pushup_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225938CD279CB8CA0003F846 /* Pushup_TrackerUITestsLaunchTests.swift */; };
+		225BF84627A0C21800B394E8 /* Colors in Resources */ = {isa = PBXBuildFile; fileRef = 225BF84527A0C21700B394E8 /* Colors */; };
+		22A156AB27A36A9400380BE7 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A156AA27A36A9400380BE7 /* ProgressController.swift */; };
+		22A156AD27A36ABD00380BE7 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A156AC27A36ABD00380BE7 /* Day.swift */; };
+		22A156B427AA1A8100380BE7 /* TimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A156B327AA1A8100380BE7 /* TimeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2231F87A27B3D54500146EFD /* IncrementButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementButton.swift; sourceTree = "<group>"; };
+		2231F87C27B5E70900146EFD /* FileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileController.swift; sourceTree = "<group>"; };
+		2231F87F27BEF96800146EFD /* SavedData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SavedData.xcdatamodel; sourceTree = "<group>"; };
+		2242E52E27AC8C520038B1CC /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		2242E53027AC8C870038B1CC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		225938AD279CB8C80003F846 /* Pushup Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pushup Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		225938B0279CB8C80003F846 /* Pushup_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushup_TrackerApp.swift; sourceTree = "<group>"; };
 		225938B2279CB8C80003F846 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +58,10 @@
 		225938C7279CB8CA0003F846 /* Pushup TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pushup TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		225938CB279CB8CA0003F846 /* Pushup_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushup_TrackerUITests.swift; sourceTree = "<group>"; };
 		225938CD279CB8CA0003F846 /* Pushup_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushup_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		225BF84527A0C21700B394E8 /* Colors */ = {isa = PBXFileReference; lastKnownFileType = text; path = Colors; sourceTree = "<group>"; };
+		22A156AA27A36A9400380BE7 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
+		22A156AC27A36ABD00380BE7 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		22A156B327AA1A8100380BE7 /* TimeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +113,13 @@
 			isa = PBXGroup;
 			children = (
 				225938B0279CB8C80003F846 /* Pushup_TrackerApp.swift */,
-				225938B2279CB8C80003F846 /* ContentView.swift */,
+				22A156A827A36A6800380BE7 /* Models */,
+				22A156A727A36A4700380BE7 /* Controllers */,
+				22A156B027AA04A900380BE7 /* Views */,
 				225938B4279CB8CA0003F846 /* Assets.xcassets */,
 				225938B6279CB8CA0003F846 /* Preview Content */,
+				225BF84527A0C21700B394E8 /* Colors */,
+				2231F87E27BEF96800146EFD /* SavedData.xcdatamodeld */,
 			);
 			path = "Pushup Tracker";
 			sourceTree = "<group>";
@@ -125,6 +147,35 @@
 				225938CD279CB8CA0003F846 /* Pushup_TrackerUITestsLaunchTests.swift */,
 			);
 			path = "Pushup TrackerUITests";
+			sourceTree = "<group>";
+		};
+		22A156A727A36A4700380BE7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				22A156AA27A36A9400380BE7 /* ProgressController.swift */,
+				22A156B327AA1A8100380BE7 /* TimeController.swift */,
+				2242E53027AC8C870038B1CC /* NotificationController.swift */,
+				2231F87C27B5E70900146EFD /* FileController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		22A156A827A36A6800380BE7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				22A156AC27A36ABD00380BE7 /* Day.swift */,
+				2242E52E27AC8C520038B1CC /* Notification.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		22A156B027AA04A900380BE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				225938B2279CB8C80003F846 /* ContentView.swift */,
+				2231F87A27B3D54500146EFD /* IncrementButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225BF84627A0C21800B394E8 /* Colors in Resources */,
 				225938B8279CB8CA0003F846 /* Preview Assets.xcassets in Resources */,
 				225938B5279CB8CA0003F846 /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +309,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A156B427AA1A8100380BE7 /* TimeController.swift in Sources */,
+				22A156AB27A36A9400380BE7 /* ProgressController.swift in Sources */,
+				2231F87B27B3D54500146EFD /* IncrementButton.swift in Sources */,
+				2231F87D27B5E70900146EFD /* FileController.swift in Sources */,
+				2242E52F27AC8C520038B1CC /* Notification.swift in Sources */,
+				2231F88027BEF96800146EFD /* SavedData.xcdatamodeld in Sources */,
 				225938B3279CB8C80003F846 /* ContentView.swift in Sources */,
+				22A156AD27A36ABD00380BE7 /* Day.swift in Sources */,
+				2242E53127AC8C870038B1CC /* NotificationController.swift in Sources */,
 				225938B1279CB8C80003F846 /* Pushup_TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pushup Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 63X6RHCD3Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -447,6 +508,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pushup Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 63X6RHCD3Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -579,6 +641,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2231F87E27BEF96800146EFD /* SavedData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2231F87F27BEF96800146EFD /* SavedData.xcdatamodel */,
+			);
+			currentVersion = 2231F87F27BEF96800146EFD /* SavedData.xcdatamodel */;
+			path = SavedData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 225938A5279CB8C80003F846 /* Project object */;
 }
