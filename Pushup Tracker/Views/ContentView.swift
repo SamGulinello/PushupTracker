@@ -11,7 +11,7 @@ struct ContentView: View {
     // Create Day Object
     @ObservedObject var progress = ProgressController()
     @Environment(\.scenePhase) var scenePhase
-
+    
     let notificationManager = NotificationController()
     
     let columns = [
@@ -79,7 +79,7 @@ struct ContentView: View {
                 }.padding()
                 Button("10 MORE REPS") {
                     progress.increasePercent()
-                    
+
                     if progress.progress > 0.9 {
                         progress.currentStreak += 1
                         let today = Day(complete: true, number: progress.dayNum, date: Date())

@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2231F87B27B3D54500146EFD /* IncrementButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231F87A27B3D54500146EFD /* IncrementButton.swift */; };
-		2231F87D27B5E70900146EFD /* FileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231F87C27B5E70900146EFD /* FileController.swift */; };
-		2231F88027BEF96800146EFD /* SavedData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2231F87E27BEF96800146EFD /* SavedData.xcdatamodeld */; };
 		2242E52F27AC8C520038B1CC /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242E52E27AC8C520038B1CC /* Notification.swift */; };
 		2242E53127AC8C870038B1CC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242E53027AC8C870038B1CC /* NotificationController.swift */; };
 		225938B1279CB8C80003F846 /* Pushup_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225938B0279CB8C80003F846 /* Pushup_TrackerApp.swift */; };
@@ -44,8 +42,6 @@
 
 /* Begin PBXFileReference section */
 		2231F87A27B3D54500146EFD /* IncrementButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementButton.swift; sourceTree = "<group>"; };
-		2231F87C27B5E70900146EFD /* FileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileController.swift; sourceTree = "<group>"; };
-		2231F87F27BEF96800146EFD /* SavedData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SavedData.xcdatamodel; sourceTree = "<group>"; };
 		2242E52E27AC8C520038B1CC /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		2242E53027AC8C870038B1CC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		225938AD279CB8C80003F846 /* Pushup Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pushup Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,7 +115,6 @@
 				225938B4279CB8CA0003F846 /* Assets.xcassets */,
 				225938B6279CB8CA0003F846 /* Preview Content */,
 				225BF84527A0C21700B394E8 /* Colors */,
-				2231F87E27BEF96800146EFD /* SavedData.xcdatamodeld */,
 			);
 			path = "Pushup Tracker";
 			sourceTree = "<group>";
@@ -155,7 +150,6 @@
 				22A156AA27A36A9400380BE7 /* ProgressController.swift */,
 				22A156B327AA1A8100380BE7 /* TimeController.swift */,
 				2242E53027AC8C870038B1CC /* NotificationController.swift */,
-				2231F87C27B5E70900146EFD /* FileController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -312,9 +306,7 @@
 				22A156B427AA1A8100380BE7 /* TimeController.swift in Sources */,
 				22A156AB27A36A9400380BE7 /* ProgressController.swift in Sources */,
 				2231F87B27B3D54500146EFD /* IncrementButton.swift in Sources */,
-				2231F87D27B5E70900146EFD /* FileController.swift in Sources */,
 				2242E52F27AC8C520038B1CC /* Notification.swift in Sources */,
-				2231F88027BEF96800146EFD /* SavedData.xcdatamodeld in Sources */,
 				225938B3279CB8C80003F846 /* ContentView.swift in Sources */,
 				22A156AD27A36ABD00380BE7 /* Day.swift in Sources */,
 				2242E53127AC8C870038B1CC /* NotificationController.swift in Sources */,
@@ -641,19 +633,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2231F87E27BEF96800146EFD /* SavedData.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2231F87F27BEF96800146EFD /* SavedData.xcdatamodel */,
-			);
-			currentVersion = 2231F87F27BEF96800146EFD /* SavedData.xcdatamodel */;
-			path = SavedData.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 225938A5279CB8C80003F846 /* Project object */;
 }
