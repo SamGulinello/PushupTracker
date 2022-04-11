@@ -11,7 +11,8 @@ class ProgressController: ObservableObject {
     @Published var dayList: [Day] = []
     @Published var progress = 0.0
     @Published var currentStreak = 0
-    @Published var BestStreak = 0
+    @Published var lock = false
+    
     var dayNum = 1
     
     func increasePercent() {
@@ -26,6 +27,8 @@ class ProgressController: ObservableObject {
                     self.dayList.append(Day(complete: false, number: self.dayNum, date: Date()))
                     self.dayNum += 1
                 }
+                self.lock = false
+                self.progress = 0
             }
         }
     }

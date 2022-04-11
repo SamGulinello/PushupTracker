@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Day: Hashable{
+struct Day: Hashable, Codable{
     var complete: Bool
     var number: Int
     var date: Date

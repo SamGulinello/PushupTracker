@@ -1,0 +1,6 @@
+framework module Pods_Pushup_TrackerTests {
+  umbrella header "Pods-Pushup TrackerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -12,7 +12,7 @@ class NotificationController{
     
     var hourlyNotification = Notification(id:"NotificationOne", title:"THIS IS A TEST", datetime: DateComponents(calendar: Calendar.current, minute: 00))
     
-    let dailyNotification = Notification(id:"DailyNotification", title:"THIS IS A TEST", datetime: DateComponents(calendar: Calendar.current, hour: 20, minute: 05))
+    let dailyNotification = Notification(id:"DailyNotification", title:"Start Your Day Strong With 10 Push Ups", datetime: DateComponents(calendar: Calendar.current, hour: 6, minute: 00))
     
     func listScheduledNotifications() {
         UNUserNotificationCenter.current().getPendingNotificationRequests { notifications in
@@ -46,15 +46,20 @@ class NotificationController{
         }
     }
     
+    func cancelNotification(id: String) {
+        let center = UNUserNotificationCenter.current()
+        center.removePendingNotificationRequests(withIdentifiers: [id])
+    }
+    
     private func scheduleHourlyNotifications(Minute: Int) {
         
-        self.hourlyNotification = Notification(id:"NotificationOne", title:"DO YOUR PUSHUPS", datetime: DateComponents(calendar: Calendar.current, minute: Minute))
+        self.hourlyNotification = Notification(id:"HourlyReminder", title:"Time For 10 More Pushups", datetime: DateComponents(calendar: Calendar.current, minute: Minute))
         
         let content = UNMutableNotificationContent()
             content.title = hourlyNotification.title
             content.sound = .default
 
-            let trigger = UNCalendarNotificationTrigger(dateMatching: hourlyNotification.datetime, repeats: true)
+            let trigger = UNCalendarNotificationTrigger(dateMatching: hourlyNotification.datetime, repeats: false)
 
             let request = UNNotificationRequest(identifier: hourlyNotification.id, content: content, trigger: trigger)
 
@@ -62,7 +67,7 @@ class NotificationController{
 
             guard error == nil else { return }
 
-                print("Notification scheduled! — ID = \(self.hourlyNotification.id)")
+                //print("Notification scheduled! — ID = \(self.hourlyNotification.id)")
                 
             }
     }
